@@ -16,7 +16,7 @@ body {
 #header{
   width: 100%;
   height: 100%;
-  background-image: url('/Final Images/Adobe_Express_20231114_0932300_1.png');
+  background-image: url('Adobe_Express_20231114_0932300_1.png');
   background-size: cover; 
   background-position: center;
   
@@ -335,7 +335,7 @@ nav .fas{
  
   #header{
     
-    background-image: url("/Final Images/Adobe_Express_20231114_0943510_1.png");
+    background-image: url("Adobe_Express_20231114_0943510_1.png");
 
     width: 100%;
     
