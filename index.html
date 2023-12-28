@@ -1,233 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Personal Portfolio Website</title>
-  
-  <!-- HTML -->
-  
-
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
-<script src="https://kit.fontawesome.com/99b1b76ed2.js" crossorigin="anonymous"></script
-	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollable Div</title>
+    <style>
+#custom-video {
+      width: 100%;
+      height: 100%;
+    }
+    </style>
 </head>
 
 <body>
-  <div id="header">
-    <div class="container">
-      <nav>
-        <img src="Adobe_Express_20231113_2208490_1.png"class="logo">
-        <ul id="sidemenu">
-          <li><a href="#header">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Service</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <i class="fas fa-times" style="color: #ffffff;" onclick="closemenu()"></i>
-        </ul>
-        <i class="fas fa-bars" style="color: #ffffff;"onclick="openmenu()"></i>
-        
-        
-        
-      </nav>
-      <div class="header-text">
-        <p><font size=7 color=red>Beginner</font><font size=6 color=white> Software Developer</font></p>
-        <h1>Hi, I am <span>Subhom</span><br>Kole From India</h1>
-      </div>
-      
-     
-    </div>
-    
-    </div>
-    <!--------------abot------------!>
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="about-col-1">
-            <img src="1683907895776.jpg">
-          </div>
-          <div class="about-col-2">
-            <h1 class="sub-title"><font color=red>About Me</font></h1>
-            <p>Hello, I am Subhom Kole. I am currently pursuing my BCA degree from JIS college of engineering, Kalyani and I am in the 1st year. I am a tech enthusiast as well as a photographer. I have successfully completed learning C (programming language), Python (programming language), Javascript,Java,C++,HTML,MS Access. Side by side, I am a photo editor and a photo retoucher. Everyday, I learn and explore new things.</p>
-            <div class="tab-titles">
-            <p class="tab-links active-link" onclick="opentab('skills')"><font size=4>Skills</font></p>
-            <p class="tab-links"onclick="opentab('Experience')"><font size=4>Experience</font></p>
-            <p class="tab-links"onclick="opentab('Education')"><font size=4>Education</font></p>
-          </div>
-          <div class="tab-contents active-tab" id="skills">
-            <ul>
-              <li><span>Beginer Software Developer</sapn><br><font size =4 color=white>OS and App Development</font></li>
-              <li><span>Web Developer</sapn><br><font size =4 color=white>Web app Developmet</font></li>
-              <li><span>Data</sapn><br><font size =4 color=white>Data Security</font></li>
-            </ul>
-          </div>
-           <div class="tab-contents"id="Experience">
-            <ul>
-              <li><span>2016-2020</sapn><br><font size =4 color=white>MS Word,MS Power Point,MS Excel,MS Access,CMD,Terminal,Linux,Ubuntu,Kali Linux,Red hat</font></li>
-              <li><span>2019-2021</sapn><br><font size =4 color=white>HTML</font></li>
-              <li><span>2021-2024-current</sapn><br><font size =4 color=white>C programming,C++,JAVA,Python,Cyber Security(Ethical Hacking),css,Java Script</font></li>
-            </ul>
-          </div>
-           <div class="tab-contents"id="Education">
-            <ul>
-              <li><span>Secoundary </sapn><br><font size =4 color=white>Bagati Ramgopal Ghosh (HS) School</font></li>
-              <li><span>Higher Secoundary</sapn><br><font size =4 color=white>Bagati Ramgopal Ghosh (HS) School</font></li>
-              <li><span>BCA 1st year-currently </sapn><br><font size =4 color=white>JIS Collage of Engineering</font></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  <!-- Services -->
-  <div id="services">
-    <div class="container">
-      <h1 class="sub-title"><font color=red>My Services</font></h1>
-      <div class="services-list">
-        <div>
-          <i class="fa-solid fa-code fa-flip"></i>
-          <h2><font color=cyan>Web Design.</font></h2>
-          <p font size=1>Make a website for you.</p>
-          <a href="businesscard11_14_11481.png">learn more</a>
-          <p font size=1></p>
-        </div>
-         <div>
-           <i class="fa-sharp fa-solid fa-crop fa-bounce"></i>
-           <h2><font color=cyan>Consultent<br> to<br> buying Laptop/Desktop.</font></h2>
-           <p>I shall help you to buy a best Laptop/Desktop.</p>
-           <a href="businesscard11_14_11481.png">learn more</a>
-         </div>
-          <div>
-            <i class="fa-sharp fa-solid fa-graduation-cap fa-beat-fade"></i>
-            <h2><font color=cyan>Learn Programming.</font></h2>
-            <p>Teach you how to write a program and how to larn programs vary easily.</p>
-            <a href="businesscard11_14_11481.png">learn more</a>
-          </div>
-      </div>
-    </div>
-  </div>
-  <!--------------portfolio---------------!>
-    <div id="portfolio">
-    <div class="container">
-    <h1 class="sub-title"><font color=black>My Work.my work my work my work</font></h1>
-    <h1 class="sub-title"><font color=red>My Work</font></h1>
-    <div class="work-list">
-    <div class="work">
-    <img src="1699933045373.jpg">
-    <div class="layer">
-    <h3> <font color=>Social media</font> </h3>
-    <p><font color=> Make a website for you</font></p>
-    <a href="businesscard11_14_11481.png"><i class="fa-solid fa-link"></i></a>
-      
-    </div>
-    </div>
-     <div class="work">
-       <img src="IMG_20231114_090246.jpg">
-        <div class="layer">
-          <h3><font color=>Laptop/Desktop buying guid</font></h3>
-          <p><font color=> I can help you to buy a best laptop/Desktop</font></p>
-          <a href="businesscard11_14_11481.png"><i class="fa-solid fa-link"></i></a>
-          
-        </div>
-     </div>
-      <div class="work">
-        <img src="IMG_20231114_090355.jpg">
-         <div class="layer">
-           <h3><font color=>Learn Programming </font></h3>
-           <p><font color=>Growing your programming skills and and learn easily</font></p>
-           <a href="businesscard11_14_11481.png"><i class="fa-solid fa-link"></i></a>
-           
-         </div>
-      </div>
-      </div>
-      <h1><font color=black>My Work.my work my work my workMy Work</font></h1>
-      <a href="businesscard11_14_11481.png" class="btn"><font color=White>See More</font></i></a>
-    </div>
-    </div>
-    <!---------contact------------!>
-    <div id="contact">
-    <div class="row">
-    <div class="contact-left">
-    <h1 class="sub-title"><font color=black>bl</font><font color=red>Contact Me.</font></h1>
-    <p><font color=black>blank</font><i class="fa-solid fa-envelope-circle-check fa-beat" style="color: #ffffff;"></i><font color=black>12</font>subhomkole5@gmail.com</p>
-    <p><font color=black>blank</font><i class="fa-solid fa-phone fa-shake" style="color: #ffffff;"></i><font color=black>12</font>6290511750</p>
-     <br>
-    <div class="social-icons">
-    <font color=black>blank</font>
-    <a href="https://www.facebook.com/zoebangla.das?mibextid=ZbWKwL"><i class="fa-brands fa-facebook fa-beat"></i></i></a>
-    <a href="https://instagram.com/zoebangla?igshid=MzMyNGUyNmU2YQ=="><i class="fa-brands fa-instagram fa-beat"></i></a>
-    <a href="https://x.com/subhom_2005?t=6GdmEUBtoeS5AEhJyMhm4A&s=09"><i class="fa-brands fa-x-twitter fa-beat"></i></a>
-    <a href="https://www.linkedin.com/in/subhom-kole-717342235?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin fa-beat"></i></a>
-    </div>
-    <font color=black>blan</font>
-    <a href="Subhom Kole pdf to image.jpg" download class="btn btn2">Download Certificate</a>
-    </div>
-    
-    <div class="contact-right">
-    <form name="submit-to-google-sheet">
-    <input type="text" name="Name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your email" required>
-    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-    <br>
-    <button type="submit" class="btn btn2">Submit</button>
-    </form>
-    <span id="msg"></span>
-    </div>
-    </div>
-    <div class="copyright">
-    <p><font size=3>Copyright © Subhom 2023</font></p>
-    </div>
-    </div>
-  <script src="main.js">
-  </script>
-  <script>
-    var tablinks = document.getElementsByClassName("tab-links");
-     var tabcontents = document.getElementsByClassName("tab-contents");
-     function opentab(tabname){
-       for(tablink of tablinks)
-       {
-         tablink.classList.remove("active-link");
-       }
-       for (tabcontent of tabcontents)
-       {
-         tabcontent.classList.remove("active-tab");
-       }
-       event.currentTarget.classList.add("active-link");
-       document.getElementById(tabname).classList.add("active-tab");
-     }
-     
 
-  </script>
- <script>
- {
- var sidemeu = document.getElementById("sidemenu");
-  function openmenu(){
-  sidemeu.style.right = "0px";
-  }
- function closemenu(){
- sidemeu.style.right = "-250px";
- }
- }
- </script>
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycby-OWRrE7kYDqJ6a5vHVLkeyl69Mxkux0lIu1Eg4L3xFIcRmkUiV2E85x1uHSQoCldSiA/exec'
-  const form = document.forms['submit-to-google-sheet']
-const msg = document.getElementById("msg")
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-      .then(response => {
-      msg.innerHTML = "Message sent successfully"
-      setTimeout(function(){
-      msg.innerHtml = ""
-      },500)
-      form.reset()
-      })
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
+    <div class="scrollable-div">
+
+  <p>  <center>
+  <p><h1>
+    Requirement of Complete application </h1></center>
+     <h2><u>
+1.	Title of the invention :</u></h2> Smart Railway Crossing System With Object Detecting Braking System.
+     <h2><u><br>
+2.	Applicants Name:</u></h2> JIS College of Engineering
+     <h2><u><br>
+3.	Inventor:</u></h2>  Subhom Kole
+     <h2><u>4.	Field of the Invention :</u></h2> Railway safety System
+
+     <h2><u><br>
+       5.	Background of the invention :</u></h2> The innovation of smart railway crossing systems has been influenced by the need to enhance safety, technological advancements, urbanization, regulatory requirements, and the imperative to improve traffic management and operational efficiency. These factors have collectively driven the adoption and integration of smart railway crossing systems into modern transportation infrastructure.<br> 
+
+     <h2><u>6.	Summary of the invention :</u></h2> The smart railway crossing with object-detecting braking is an innovative solution designed to enhance railway safety by seamlessly integrating advanced technologies. This system employs state-of-the-art sensors, such as radar, lidar, or computer vision, to detect objects in the vicinity of the railway crossing. In the event of an identified obstacle, the system triggers an automatic braking mechanism, preventing potential collisions between trains and obstacles.<br>
+
+This invention addresses the limitations of traditional railway crossings by introducing a proactive and automated approach to safety. The real-time object detection capability ensures swift and accurate responses, mitigating the risks associated with human error and unexpected obstacles on the tracks. By combining sensor technology with braking systems, the smart railway crossing significantly reduces the likelihood of accidents, thereby safeguarding both passengers and railway infrastructure. This innovation represents a crucial step towards making railway crossings more intelligent, efficient, and secure.
+ 
+
+
+
+     <h2><u>7.	Detailed description of the invention with accompanying</u></h2><br>
+(1). The accidents that happen in railway crossings  because of which we have made railway crossings fully automatic in which when the train comes near the railway crossings, only then the sensor will detect the train or the gate will be closed or then the train will move away from the railway crossing. Go ahead, the gate will open automatically.<br>
+     (2). Our project detects any object, whether it is a human being, an animal or a vehicle and after sensing it, it applies the brakes which prevents accidents.
+railway environment for all stakeholders.
+     <h2><u>  8) Advantages:</u></h2>
+●	Accidents will be resolved with the help of our projects.<br>
+●	It enhance traffic management at railway crossings.<br>
+●	It is cost efficient.<br>
+
+
+
+
+     <h2><u>9)  Claim :</u></h2> 
+●	Economical and cost effective system..<br>
+●	Trouble free.<br>
+●	Labor Saving.<br>
+●	Saves time for mankind and reduces the probe of touchability.<br>
+
+●	Automated.<br>
+
+
+
+
+     <h2><u>10) Abstract :</u></h2> The system has two types of sensors that detect the train's arrival and sends a signal to the Arduino microcontroller to control the crossing system and also sense object for safe braking. The Arduino board then process the signals and sends command to the motor driver to open or close the crossing gate and also process the braking system . The gate remains closed until the train passes, and then it opens automatically.<br>
+      The system uses detection sensors to detect approaching trains. When a train arrives at the sensing point, an alarm is triggered at the railway crossing point. This notifies people that the gate is going to be closed. The system can be employed in unmanned level crossings where the chances of accidents are higher and reliable operation is required.<br>
+     <h2><u>Video :</u></h2>
+  </p>
+        <!-- Add more content as needed -->
+    </div>
+ <video id="custom-video" controls muted loop>
+    <source src="/Image/VID20231123172426.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </body>
+
 </html>
